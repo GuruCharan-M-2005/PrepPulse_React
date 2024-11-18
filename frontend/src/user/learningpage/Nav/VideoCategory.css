@@ -1,0 +1,40 @@
+/* VideoCategory.css */
+
+.video-category {
+  padding: 20px;
+  padding-left: 30px;
+  margin-top: 50px;
+ 
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+
+.video-item {
+ /* Four videos per row */
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 29px;
+  width: 380px;
+  height: 240px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.video-item iframe {
+  width: 100%;
+  height: 100%; /* Fixed height for the iframe */
+}
+

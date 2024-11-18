@@ -1,0 +1,90 @@
+.testimonal .content {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+}
+.headingtest h3,.headingtest h1{
+  color: white;
+  text-align: center;
+
+}
+.name span{
+  font-weight: 600;
+}
+.headingtest{
+  background-color: #9999D4;
+  padding: 20px;
+}
+.headingtest h1{
+  color:white;
+  font-weight: 900;
+}
+.testimonal .items {
+  padding: 30px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.testimonal .img {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.testimonal img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonal i {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+.testimonal .name {
+  text-align: center; 
+  margin: 25px 0;
+}
+
+.testimonal .name h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.testimonal .name span {
+  color: #9999D4;
+}
+
+.testimonal p {
+  margin-top: 20px;
+  color: grey;
+  text-align: center; 
+}
+
+.testimonal .items:hover {
+  background-color: #9999D4;
+  color: black;
+  cursor: pointer;
+}
+
+.testimonal .items:hover span,
+.testimonal .items:hover p {
+  color: #fff;
+}
+
+.testimonal .items:hover i {
+  background-color: #fff;
+  color:#9999D4;
+}
+
+
+

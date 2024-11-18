@@ -1,0 +1,36 @@
+/* Top Navigation Bar Styles */
+.top-nav {
+    position: fixed;
+    top: 0; /* Adjust to stick to the top */
+    /* Adjust to start after the sidebar */
+    width: calc(110% - 50px); /* Full width minus sidebar width */
+    height: 60px; /* Adjust height as needed */
+    background-color: #4d6be2;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+   padding-left: 35px;
+    z-index: 1000; /* Ensure it sits above other content */
+}
+
+.top-nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.top-nav .search-container {
+    flex: 1;
+    display: flex;
+    margin-left: 290px;
+}
+
+.top-nav .search-input {
+    
+    padding: 12px;
+    width: 700px;
+    border: 1px solid #ddd;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+

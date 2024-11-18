@@ -1,0 +1,44 @@
+#coreConcepts {
+  padding: 0; 
+  margin: 0;  
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#tabButtons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#coreConcepts ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.img {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.arrow-img{
+  background: transparent;
+  background-color: transparent;
+}
+.arrow{
+  padding: 0 30px 0 30px;
+  margin-top: 110px;
+  background: transparent;
+  background-color: transparent;
+}

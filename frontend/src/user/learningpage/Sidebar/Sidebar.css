@@ -1,0 +1,81 @@
+/* Sidebar Styles */
+.sidebar {
+    position: absolute;
+    top: 60px; /* Adjusted to stick to the top */
+    left: 30px;
+    width: 170px;
+    max-height: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 330px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+
+
+.sidebar ul {
+   
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+.sidebar-item1 {
+    margin-bottom: -6px;
+    margin-left: -25px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.separator {
+    border: 0;
+    border-top: 1px solid #565555;
+  
+}
+
+
+.sidebar-item {
+    margin-bottom: -6px;
+}
+
+.sidebar-item button {
+    text-decoration: none; /* Ensure no underline */
+    color: #333;
+    font-size: 1.1em;
+    text-align: left;
+    background-color: #ffffff;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    min-width: 15vw;
+    margin-left: -1vw;
+    border: none;
+    transition: background-color color 0.2s;
+}
+
+.sidebar-item button:hover {
+    background-color:#4d6be2;
+    min-width: 20vw;
+    color: white;
+    
+
+}
+
+.video-category {
+    margin-left: 220px; /* Adjust based on sidebar width */
+    padding: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+
+
+

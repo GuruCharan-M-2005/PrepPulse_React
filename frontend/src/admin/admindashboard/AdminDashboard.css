@@ -1,0 +1,95 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.header h2 {
+    text-align: left;
+    margin-top: -10px;
+    margin-right: 1000px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    color: #000;
+    width: 300px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.stat {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    
+    position: relative; 
+    margin: 0 10px;
+    text-align: center; 
+}
+
+.stat-link {
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+#stat1 {
+    margin: 10px 0 0 10px;
+    border: 3px solid;
+    border-color: rgba(224, 82, 82, 0.848); 
+}
+
+#stat2 {
+    margin: 10px 0 0 10px;
+    border: 3px solid;
+    border-color: rgba(82, 224, 99, 0.822); 
+}
+
+#stat3 {
+    margin: 10px 0 0 10px;
+    border: 3px solid;
+    border-color: rgba(82, 122, 224, 0.84); 
+}
+
+#stat4 {
+    margin: 10px 0 0 10px;
+    border: 3px solid;
+    border-color: rgb(224, 82, 217); 
+}
+
+#stat1:hover {
+    background-color: rgba(224, 82, 82, 0.848);
+}
+
+#stat2:hover {
+    background-color: rgba(82, 224, 99, 0.822); 
+}
+
+#stat3:hover {
+    background-color: rgba(82, 122, 224, 0.84); 
+}
+
+#stat4:hover {
+    background-color: rgb(224, 82, 217); 
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.chart {
+    width: 50%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    min-width: 300px; 
+    
+    
+}

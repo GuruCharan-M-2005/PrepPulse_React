@@ -1,0 +1,88 @@
+:root {
+  --blue-color: #362fb0; 
+}
+.aboutHome {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #f8f9fa; 
+  margin-top: 150px;/* Light background color for contrast */
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left,
+.right {
+  flex: 1;
+  /* Ensures both left and right sections take equal space */
+}
+
+.left {
+  width: 50%;
+  padding-right: 20px; /* Space between left and right sections */
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensures image is a block element */
+}
+
+.right {
+  width: 50%;
+  padding-left: 20px; /* Space between left and right sections */
+}
+
+.itemsabout {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space between items */
+}
+
+.item .img {
+  margin-right: 15px; /* Space between image and text */
+}
+
+.item img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.text {
+  flex: 1;
+}
+
+.text h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #333; /* Dark text color */
+}
+
+.text p {
+  margin: 0;
+  font-size: 16px;
+  color: #666; /* Lighter text color for description */
+}
+.headingabout h3{
+  color: var(--blue-color); /* Use the blue color variable */
+}
+.headingabout h1{
+  font-size: 40px;
+}
+.itemflexSB{
+  display: flex;
+  height:auto;
+  width:700px;
+  margin-bottom: 50px;
+}
+.text{
+  margin-left: 20px;
+}

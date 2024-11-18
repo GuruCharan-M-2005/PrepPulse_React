@@ -1,0 +1,194 @@
+
+.user-calendar {
+  display: flex;
+  height: 100vh;
+  margin-left: -200px;
+  margin-top: -20px;
+}
+
+.sidebar {
+  width: 200px; /* Fixed width for sidebar */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Fix sidebar to left */
+  height: 100%;
+}
+
+.calendar-container {
+  margin-left: 220px; /* Adjust for sidebar width */
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.calendar-view {
+  position: relative;
+}
+
+.task-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  z-index: 20; 
+}
+
+.task-overlay h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.task-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6); /* Gray background with transparency */
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 300px;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  z-index: 10; /* Applied z-index concept */
+}
+
+.task-form .form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; /* White text for title */
+  text-align: center; /* Center title */
+}
+
+.task-form input, 
+.task-form textarea {
+  width: 30%; /* Reduced width */
+  padding: 10px;
+  margin: 10px auto; /* Centered with auto margins */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+  display: block; /* Center alignment */
+}
+
+.task-form button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;  
+  display: block; /* Center alignment */
+  transition: background-color 0.3s; /* Animation */
+}
+
+.task-form button[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.task-form button[type="button"] {
+  background-color: red; /* Red for cancel */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto; /* Centered */
+  display: block; /* Center alignment */
+  transition: background-color 0.3s; /* Animation */
+}
+
+.task-form button[type="button"]:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.add-task-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #3e8e41;
+}
+
+.react-calendar {
+  width: calc(100% - 40px); /* Reduced width */
+  height: calc(100% - 40px); /* Reduced height */
+  padding: 20px;
+  margin: 20px; /* Add margin around calendar */
+}
+
+.react-calendar .react-calendar__tile {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px; /* Increased padding for each cell */
+  text-align: center;
+  cursor: pointer;
+  height: 100px; /* Increased height for each cell */
+  transition: background-color 0.3s; /* Animation */
+}
+
+.react-calendar .react-calendar__tile:hover {
+  background-color: #f0f0f0;
+}
+
+.react-calendar .react-calendar__tile--active {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.react-calendar .react-calendar__tile--active:hover {
+  background-color: #3e8e41;
+}
+
+ .task-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* padding: 20px; */
+  border-radius: 10px;
+  padding: 150px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: -100px;
+  color: #fff; 
+  /* margin-top: 20px; */
+} 
+.task-overlay li {
+  display: flex;
+  justify-content: space-between;
+  align-items:   center;
+  width: 1200px;
+  /* padding: 10px; */
+  border-bottom: 1px solid #eee;
+}
+
+.task-overlay li span {
+  flex: 1;
+}
+
+.task-overlay li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-overlay li button:hover {
+  background-color: #c82333;
+}
