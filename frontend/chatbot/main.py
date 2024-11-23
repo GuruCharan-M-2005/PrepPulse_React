@@ -6,11 +6,14 @@ $ pip install google-generativeai
 
 from flask import Flask, request, jsonify
 import os
+from dotenv import load_dotenv
 from flask_cors import CORS
 import google.generativeai as genai
 
-
-genai.configure(api_key='AIzaSyAd7XE3OGByosNQ8YySyjmt-7CXiAu-Xj4')
+load_dotenv()
+api_key = os.getenv("API_KEY")
+print(api_key)
+genai.configure(api_key=api_key)
 
 
 app = Flask(__name__)
